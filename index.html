@@ -4,43 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>myFirstWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" </head>
 
-<body>
-    <div>
-        <ul>
-            <li>Home</li>
-            <li>Wiki</li>
-            <li>Gitub</li>
-            <li>LinkedIn</li>
-        </ul>
-    </div>
-    <main>
-        <div class="home">
-            <h1>Katalin Chinorányi</h1>
-            <h4>Wannabe Junior Frontend Developer</h2>
-                <p class="intorduction">I'm Kata from Budapest, Hungary. I stared my career as a Starbucks barista and soon became the Assistant Store Manager of my store. After that I got an opportunity in HR field, as a recruiter for Starbucks. Right now I work as a Localization
-                    Specialist, I manage the translation of the training materials and I'm the administrator of the website and the application, where our employees do these trainings. That's wh I got interested in Frontend Development, I want to have
-                    better understading of how a website works! </p>
-        </div>
-        <div class="dots">PONTOK</div>
-        <div class="wiki">
-            <h2>Technology Wiki</h2>
-            <h3>1</h3>
-            <p class="description">Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több bináris bemeneten és produkál egy bináris kimenetet.</p>
-            <h3>2</h3>
-            <p class="description">As angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat értik, így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.</p>
-            <h3>3</h3>
-            <p class="description">Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó programokat és a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága független az elhelyezkedésétől.</p>
-            <h3>4</h3>
-            <p class="description"> A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata, amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel egy adott feladat elvégzésének módját. </p>
-            <h3>5</h3>
-            <p class="description">Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások, illetve az internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.</p>
-            <h3>6</h3>
-            <p class="description">Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A World Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és mozgatására.</p>
-        </div>
-    </main>
-</body>
+    <body>
+        <nav>
+            <img src="assets\aperture.svg" alt="logo">
+            <ul class="navbar">
+                <li><a href="index.html ">Home</a></li>
+                <li><a href="#technologyWiki">Wiki</a></li>
+                <li><a href="https://github.com/Chinokata">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/kata-chinoranyi/">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="home">
+                <h1>Katalin Chinorányi</h1>
+                <h4>Wannabe Junior Frontend Developer</h2>
+                    <p class="introduction">I'm Kata from Budapest, Hungary. I stared my career as a Starbucks barista and soon became the Assistant Store Manager of my store. After that I got an opportunity in HR field, as a recruiter for Starbucks. </p>
+                    <p class="introduction"> Right now I work as a Localization Specialist, I manage the translation of the training materials and I'm the administrator of the website and the application, where our employees do these trainings. That's wh I got interested in Frontend
+                        Development, I want to have better understanding of how websites work! </p>
+            </div>
+            <div class="dots">- - -</div>
+            <div class="wiki">
+                <h2 id="technologyWiki">Technology Wiki</h2>
+                <h3>Számológép</h3>
+                <p class="description ">Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több bináris bemeneten és produkál egy bináris kimenetet.</p>
+                <h3>ASCII</h3>
+                <p class="description ">As angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat értik, így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.</p>
+                <h3>RAM</h3>
+                <p class="description ">Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó programokat és a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága független az elhelyezkedésétől.</p>
+                <h3>Programozási nyelv</h3>
+                <p class="description "> A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata, amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel egy adott feladat elvégzésének módját.
+                </p>
+                <h3>Domain Name System</h3>
+                <p class="description ">Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások, illetve az internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.</p>
+                <h3>Hyper Text Transfer Protocol</h3>
+                <p class="description ">Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A World Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és mozgatására.</p>
+            </div>
+        </main>
+    </body>
 
 </html>
