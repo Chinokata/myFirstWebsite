@@ -1,6 +1,7 @@
 body {
     background-image: url(assets/topography.png);
     font-family: 'Courier New', Courier, monospace;
+    width: 100%;
 }
 
 nav {
